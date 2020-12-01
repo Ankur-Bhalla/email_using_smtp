@@ -5,7 +5,7 @@ from email.message import EmailMessage
 
 email = EmailMessage()
 email['from'] = 'Ankur Bhalla'
-email['to'] = '<ankurbhalla28@gmail.com>'
+email['to'] = '<enter receiver email>'
 email['subject'] = 'You won 1,000,000 dollars!'
 
 email.set_content('I am a Python Master!')
